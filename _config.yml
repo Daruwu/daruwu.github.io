@@ -1,0 +1,60 @@
+# Site wide configuration
+
+title:                    Darien Nguyen
+locale:                   en_US
+description:              Clinical Specialist in High Throughput Medical Instrumentation | Expanding into Data Analytics for Healthcare
+logo:                     DSC02695.jpg
+url:                      https://daruwu.github.io/
+
+# Jekyll configuration
+
+permalink:      /:categories/:title/
+markdown:       kramdown
+highlighter:    rouge
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+gems:
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+
+kramdown:
+  input: GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..2
+  enable_coderay: false
+  mathjax: true
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", ".less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
+
+comments: false
+
+# Site owner
+
+owner:
+  name:           Darien Nguyen
+  avatar:         DSC02695.jpg
+  email:          darienn9910@gmail.com
+  disqus-shortname:
+  twitter:
+  facebook:
+  github:         Daruwu
+  stackexchange:
+  linkedin:       dariennguyen
+  kaggle:         daruwu
+  instagram:
+  flickr:
+  tumblr:
+  pinterest:
+
+analytics:
+verify:
+ad-client:
+ad-slot:
+bing-verify:

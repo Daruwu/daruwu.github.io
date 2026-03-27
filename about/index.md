@@ -42,7 +42,7 @@ Platforms I've worked with hands-on:
 ## Education
 
 **M.S. Data Analytics** — Western Governors University
----
+
 **B.S. Biology** — University of Texas at Arlington
 
 ---

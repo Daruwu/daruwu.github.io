@@ -42,8 +42,8 @@ Platforms I've worked with hands-on:
 
 ## Education
 
-<!-- Add your degree(s) here -->
-*Masters degree — [Data Analytics], [Western Governors University]*
+**M.S. Data Analytics** — Western Governors University
+**B.S. Biology** — University of Texas at Arlington
 
 ---
 

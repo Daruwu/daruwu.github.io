@@ -75,3 +75,49 @@ Culminating project integrating skills across the entire program. Defined a rese
 [View on GitHub](https://github.com/Daruwu/MSDA_WGU/blob/main/D214)
 
 ---
+
+## Bioinformatics — Python Projects
+
+A collection of Python scripts developed during early bioinformatics coursework, focused on DNA sequence analysis algorithms built from scratch — emphasizing an understanding of the underlying biology and computation.
+
+---
+
+### DNA Sequence Analysis Toolkit
+**Tools:** Python, BioPython  
+A suite of command-line tools for analyzing DNA sequences, including nucleotide counting, k-mer frequency analysis, and pattern matching. Scripts accept raw sequence input and return counts, positions, or frequency arrays — replicating core operations used in genome analysis pipelines.  
+*Scripts: `side_project.py`, `seq.py`, `frequent_words.py`, `array_frequency.py`, `pattern.py`, `position.py`*
+
+---
+
+### Approximate Pattern Matching with Hamming Distance
+**Tools:** Python, BioPython  
+Implements approximate string matching on DNA sequences using Hamming distance — identifying where a target pattern appears in a genome even when allowing for a set number of mismatches. Directly applicable to mutation detection and primer design in genomics workflows.  
+*Scripts: `Approx_Pat_Match.py`, `hamming_dist.py`, `test_code.py`*
+
+---
+
+### k-mer Neighborhood & Mismatch Analysis
+**Tools:** Python  
+Generates all k-mer neighbors within a given Hamming distance and identifies the most frequent k-mers accounting for mismatches and reverse complements. Useful for identifying transcription factor binding sites and replication origin candidates in genomic sequences.  
+*Scripts: `d_neighbor.py`, `fr_words_mis.py`, `fr_mis_rev.py`*
+
+---
+
+### Genome Skew & Replication Origin Analysis
+**Tools:** Python  
+Computes the GC skew across a genome and identifies minimum skew positions — a technique used to predict the origin of replication (oriC) in bacterial genomes. Also includes clump finding to locate regions of high k-mer density.  
+*Scripts: `min_skew.py`, `clump.py`*
+
+---
+
+### RNA-seq Differential Expression Data Processing
+**Tools:** Python, NumPy, JSON  
+Parses and cross-references DESeq2 differential expression output with sequence annotation files, merging datasets by gene identifier and filtering out NA log-fold change values. Outputs a clean structured table ready for downstream visualization or statistical analysis — bridging raw pipeline output and interpretable results.  
+*Scripts: `converttodict.py`, `table2.py`*
+
+---
+
+### GC Content Analysis from FASTA Files
+**Tools:** Python, BioPython  
+Reads multi-sequence FASTA files, computes GC content for each record, and identifies the sequence with the highest GC percentage — a standard quality metric in genomics and a foundational Rosalind bioinformatics problem.  
+*Scripts: `transcribe.py`*

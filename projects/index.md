@@ -80,6 +80,8 @@ Culminating project integrating skills across the entire program. Defined a rese
 
 A collection of Python scripts developed during early bioinformatics coursework, focused on DNA sequence analysis algorithms built from scratch — emphasizing an understanding of the underlying biology and computation.
 
+**[View full repository on GitHub](https://github.com/Daruwu/bioinformatics-projects)**
+
 ---
 
 ### DNA Sequence Analysis Toolkit

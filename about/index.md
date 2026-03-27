@@ -31,7 +31,6 @@ Platforms I've worked with hands-on:
 
 ## Data & Analytics Skills
 
-|---|---|
 | **Excel** | Reagent/test tracking and failure logging in clinical workflows |
 | **Python** | Bioinformatics projects |
 | **SQL** | Data querying and analysis during graduate studies |
